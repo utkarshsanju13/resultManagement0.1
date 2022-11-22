@@ -1,4 +1,3 @@
-//importing student model
 const Student = require('../models/student');
 
 const student_login_get = (req, res) => {
@@ -17,7 +16,7 @@ const student_login_post = async (req, res) => {
         res.render("student/view", { one : individualStudent});
     };
 
-//exporting student controller functions
+
 module.exports={
     student_login_get,
     student_login_post

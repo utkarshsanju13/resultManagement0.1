@@ -56,7 +56,7 @@ const teacher_add_post = async (req, res) => {
     }
 };
 
-//exporting teacher controller functions
+
 module.exports={
     teacher_login_get,
     teacher_login_post,
